@@ -1,4 +1,4 @@
-# love-list
+# LOVE-LIST
 :heart: 刘先生和张小姐的爱情清单！
 
 
