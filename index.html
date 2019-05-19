@@ -48,11 +48,13 @@
 <div class="container grid-sm s-content posts">
   <div class="column col-12">
     <ol>
-      <li class="done">
-        <del>手牵手压马路</del>
+      <li class="done has-image">
+        <del>手牵手过马路</del><br>
+        <img src="static/images/favicon.ico" hidden="hidden">
       </li>
-      <li class="done">
-        <del>一起坐摩天轮</del>
+      <li class="done has-image">
+        <del>一起坐摩天轮</del><br>
+        <img src="static/images/favicon.ico" hidden="hidden">
       </li>
       <li>一起白头到老</li>
     </ol>
@@ -69,5 +71,12 @@
   </div>
 </div>
 
+<!-- JS -->
+<script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+  $(".done").click(function(){
+    $(this).children('img').toggle(500);
+  })
+</script>
 </body>
 </html>
