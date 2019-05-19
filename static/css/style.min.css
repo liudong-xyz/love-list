@@ -939,7 +939,7 @@ select[multiple] {
     top: -6px;
     width: 69px;
     height: 69px;
-    background: url(images/love.png) no-repeat 0 0;
+    background: url(../images/love.png) no-repeat 0 0;
     vertical-align: middle
 }
 
